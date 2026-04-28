@@ -32,11 +32,9 @@ export default function Home() {
             <a href="#package" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Package
             </a>
-            <Link href="/contact">
-              <a className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Contact
-              </a>
-            </Link>
+            <a href="#contact-us" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Contact Us
+            </a>
           </nav>
         </div>
       </header>
@@ -61,14 +59,12 @@ export default function Home() {
               We help high-achieving professionals evaluate, position, and strengthen their profiles for U.S. immigration success.
             </p>
             <div className="pt-4">
-              <Link href="/contact">
-                <a>
-                  <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-3 px-8 rounded-md text-lg transition-all duration-200 hover:scale-105">
-                    Book a Consultation
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </a>
-              </Link>
+              <a href="mailto:Visahelp@inteliqu.com">
+                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-3 px-8 rounded-md text-lg transition-all duration-200 hover:scale-105">
+                  Book a Consultation
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -272,14 +268,12 @@ export default function Home() {
                 <p className="text-muted-foreground mb-6">
                   <span className="text-foreground font-semibold">Pricing:</span> Contact us for pricing details
                 </p>
-                <Link href="/contact">
-                  <a>
-                    <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-3 px-8 rounded-md transition-all duration-200 hover:scale-105">
-                      Get Started
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </Button>
-                  </a>
-                </Link>
+                <a
+                  href="mailto:Visahelp@inteliqu.com"
+                  className="text-lg font-medium text-foreground hover:text-accent transition-colors"
+                >
+                  Visahelp@inteliqu.com
+                </a>
               </div>
             </Card>
           </div>
@@ -321,6 +315,27 @@ export default function Home() {
       {/* Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
 
+      {/* Contact Us */}
+      <section id="contact-us" className="py-20 md:py-24 bg-background">
+        <div className="container">
+          <div className="max-w-3xl rounded-lg border border-border bg-card p-8 md:p-10">
+            <h2 className="mb-4">Contact Us</h2>
+            <p className="text-lg text-muted-foreground mb-4">
+              For consultation and pricing details, email us directly.
+            </p>
+            <a
+              href="mailto:Visahelp@inteliqu.com"
+              className="text-xl font-medium text-foreground hover:text-accent transition-colors"
+            >
+              Visahelp@inteliqu.com
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+
       {/* Disclaimer */}
       <section className="py-16 md:py-20 bg-background">
         <div className="container">
@@ -345,9 +360,6 @@ export default function Home() {
                 <a href="mailto:Visahelp@inteliqu.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Visahelp@inteliqu.com
                 </a>
-                <a href="tel:+18173740245" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  +1 (817) 374-0245
-                </a>
               </div>
             </div>
             <nav className="flex gap-8">
@@ -357,11 +369,9 @@ export default function Home() {
               <a href="#what-we-do" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 What We Do
               </a>
-              <Link href="/contact">
-                <a className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Contact
-                </a>
-              </Link>
+              <a href="mailto:Visahelp@inteliqu.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Email Us
+              </a>
             </nav>
           </div>
           <div className="border-t border-border mt-8 pt-8">
